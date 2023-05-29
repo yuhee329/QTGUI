@@ -1,8 +1,5 @@
 #ifndef SOCKETCLIENT_H
 #define SOCKETCLIENT_H
-
-/* kccistc embedded & iot by ksh */
-
 #include <QTcpSocket>
 #include <QHostAddress>
 #include <QInputDialog>
@@ -17,7 +14,7 @@ private:
     QTcpSocket *pQTcpSocket;
     QString SERVERIP = "10.10.141.36";
     int SERVERPOT = 5000;
-    QString LOGID = "10";
+    QString LOGID = "KYH_QT";
     QString LOGPW = "PASSWD";
 public:
 	SocketClient(QWidget *parent = 0, Qt::WindowFlags flags = 0);
